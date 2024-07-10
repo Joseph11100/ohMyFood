@@ -151,15 +151,23 @@
 .barre-grise2 .txt-light {
   margin-top: -20px;
 }
-.barre-grise2 i {
+.barre-grise2 .fa-heart {
   display: flex;
   justify-content: end;
   margin-top: -52px;
   margin-left: 19rem;
   font-size: x-large;
+  -webkit-background-clip: text;
+          background-clip: text;
   cursor: pointer;
   position: absolute;
-  background-image: linear-gradient(#ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
+  color: black;
+  transition: 600ms;
+}
+.barre-grise2 .fa-heart:hover {
+  background-image: linear-gradient(to bottom, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  color: transparent;
+  font-weight: bold;
 }
 
 footer {

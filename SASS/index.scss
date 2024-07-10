@@ -190,23 +190,40 @@
     margin-top: -20px;
   }
 
-  i {
+  .fa-heart {
     display: flex;
     justify-content: end;
     margin-top: -52px;
     margin-left: 19rem;
     font-size: x-large;
+    background-clip: text;
 
     cursor: pointer;
 
     position: absolute;
+    // background-image: linear-gradient(
+    //   #ff79da,
+    //   #e86edb,
+    //   #cf64dc,
+    //   #b35cdc,
+    //   #9356dc
+    // );
+    color: black;
+    transition: 600ms;
+  }
+
+  .fa-heart:hover {
     background-image: linear-gradient(
-      #ff79da,
-      #e86edb,
-      #cf64dc,
+      to bottom,
+      #9356dc,
       #b35cdc,
-      #9356dc
+      #cf64dc,
+      #e86edb,
+      #ff79da
     );
+
+    color: transparent;
+    font-weight: bold;
   }
 }
 
