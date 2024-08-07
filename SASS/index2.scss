@@ -17,6 +17,11 @@ header {
   width: 200px;
 }
 
+.img-cadre {
+  width: 200px;
+  object-fit: cover;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -337,5 +342,60 @@ footer {
   }
   .espaces {
     font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  i.fa-arrow-left {
+    margin-left: -36rem;
+  }
+  .img-cadre {
+    height: 430px;
+  }
+  .section-2 {
+    margin-inline: 190px;
+    padding-inline: 180px;
+  }
+
+  .text-horz {
+    justify-content: center;
+  }
+  .footer-ligne {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 141px;
+    padding-top: 49px;
+  }
+
+  .footer1 {
+    display: flex;
+    margin-right: 46px;
+  }
+
+  .footer2 {
+    display: flex;
+  }
+
+  li.espaces {
+    margin-right: 30px;
+  }
+  ul.footer-paragr {
+    display: flex;
+  }
+  .footer-titre {
+    margin-top: 14px;
+    margin-right: -66px;
+  }
+
+  i.fa-handshake-angle {
+    font-size: x-small;
+    margin-right: -6px;
+    margin-left: 6px;
+  }
+  i.fa-utensils {
+    font-size: small;
+    margin-right: -6px;
   }
 }
